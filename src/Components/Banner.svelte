@@ -157,7 +157,7 @@
 				></div>
 
 				<div class="relative top-24 text-center">
-					<a href="#about">
+					<a href="/">
 						<button class="text-light-color bg-primary-color after-btn"> ROAM </button>
 					</a>
 				</div>
