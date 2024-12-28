@@ -37,7 +37,7 @@
 			</span>
 		</a>
 		<a
-			href="/About"
+			href="/"
 			class=" hover-header relative flex items-center h-full border-r border-r-white-opaque px-4 text-sm group"
 		>
 			<span
