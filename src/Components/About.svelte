@@ -16,7 +16,7 @@
 				text: { value: '01000001' }
 			},
 			{
-				text: { value: 'ABOUT' },
+				text: { value: 'PLAYER' },
 				duration: 2, // Duration of the animation
 				delay: 0.5,
 				scrollTrigger: {
@@ -54,7 +54,7 @@
 
 <main>
 	<section id="about" class="overflow-hidden">
-		<div class="sub-grid grid columns-2">
+		<div class="sub-grid grid columns-2 lg:columns-1">
 			<div class="svg flex flex-col justify-between">
 				<svg
 					bind:this={svgRef}
@@ -87,12 +87,12 @@
 				<h2
 					class="text-primary-color font-semibold text-[64px] leading-none px-3 lg:text-[6.559vw]"
 				>
-					<span class="about">AOUT</span>
-					<span class="block text-light-color">ME.</span>
+					<span class="about">ABOUT</span>
+					<span class="block text-light-color">B<span class="text-primary-color">I</span>O.</span>
 				</h2>
 			</div>
 			<div
-				class="about-me flex flex-col justify-end col-span-2 border-l border-l-white-opaque pt-[105px] px-[37px] xl:pt-[8vw] xl:px-[2.467vw] text-[18px] text-balance 2xl:text-[22px] lg:text-[1.816vw]"
+				class="about-me flex flex-col justify-end col-span-2 lgmin:border-l lgmin:border-l-white-opaque pt-[105px] px-[37px] xl:pt-[8vw] xl:px-[2.467vw] text-[18px] text-balance 2xl:text-[22px] lg:text-[1.816vw]"
 			>
 				<p>
 					I am Bhavya Panchal, a passionate front-end developer currently working at eQuest
