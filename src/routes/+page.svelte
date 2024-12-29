@@ -1,4 +1,5 @@
 <script>
+	import About from '../Components/About.svelte';
 	import Banner from '../Components/Banner.svelte';
 </script>
 
@@ -9,4 +10,5 @@
 
 <section>
 	<Banner />
+	<About />
 </section>
