@@ -92,7 +92,7 @@
 
 <main>
 	<section
-		class="banner relative w-full h-full overflow-hidden mt-[55px] border-b border-b-white-opaque"
+		class="banner relative w-full overflow-hidden mt-[55px] border-b border-b-white-opaque"
 	>
 		<div class="relative h-full flex lgmin:col-span-3 lgmin:grid lgmin:grid-cols-3 home-grid">
 			<div class="w-full hidden lgmin:flex items-end">
@@ -205,9 +205,7 @@
 </main>
 
 <style>
-	.banner {
-		height: calc(100vh - 50px);
-	}
+	
 	.after-btn {
 		position: relative;
 		color: #662424;

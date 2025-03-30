@@ -16,15 +16,15 @@
 				text: { value: '01000001' }
 			},
 			{
-				text: { value: 'PLAYER' },
+				text: { value: 'ABOUT' },
 				duration: 2, // Duration of the animation
 				delay: 0.5,
 				scrollTrigger: {
 					trigger: svgRef, // The element we are watching
-					start: 'top 50%', // Animation starts when 80% of the element is in the viewport
-					end: 'bottom 20%', // Optional: end when 20% of the element is still in the viewport
+					start: 'top 80%', // Animation starts when 80% of the element is in the viewport
+					end: 'bottom 0%', // Optional: end when 20% of the element is still in the viewport
 					once: true, // Trigger animation only once
-					markers: false // Debugging: Show markers on the page
+					markers: true // Debugging: Show markers on the page
 				}
 			}
 		);
@@ -45,7 +45,7 @@
 					start: 'top 80%', // Animation starts when 80% of the element is in the viewport
 					end: 'bottom 20%', // Optional: end when 20% of the element is still in the viewport
 					once: true, // Trigger animation only once
-					markers: false // Debugging: Show markers on the page
+					markers: true // Debugging: Show markers on the page
 				}
 			}
 		);
@@ -88,7 +88,7 @@
 					class="text-primary-color font-semibold text-[64px] leading-none px-3 lg:text-[6.559vw]"
 				>
 					<span class="about">ABOUT</span>
-					<span class="block text-light-color">B<span class="text-primary-color">I</span>O.</span>
+					<span class="block text-light-color">ME</span>
 				</h2>
 			</div>
 			<div
